@@ -28,7 +28,7 @@
     `docker run -it -v ~/test2:/home --rm python-barcode python ./output_file_to_mounted_host.py`
     `ls ~/test2`
 
-## Docker command
+## Docker command used
 docker build --help
 
   -t, --tag list                Name and optionally a tag in the 'name:tag' format
@@ -45,7 +45,7 @@ Go inside docker
 `docker exec -it <mycontainer> bash`
 
 
-## Source
+## Reference
 - [Dockerize your Python Application | Runnable Docker Guides](https://runnable.com/docker/python/dockerize-your-python-application)
 - [How to automatically delete a Docker container after running it | Power CMS](https://www.powercms.in/blog/how-automatically-delete-docker-container-after-running-it)
 
